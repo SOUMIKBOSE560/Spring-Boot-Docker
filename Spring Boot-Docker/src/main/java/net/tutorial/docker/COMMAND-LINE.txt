@@ -4,7 +4,7 @@ use apache maven to build your project and create the .jar file.
 Ex:C:\Users\Soumik\Documents\2nd_Docker_Test\Spring-Boot-Docker\Spring Boot-Docker\target
 
 # Replace "my-spring-boot-docker-app" with your desired image name
->docker build -t my-spring-boot-docker-app .
+docker build -t my-spring-boot-docker-app .
 
 #running the container after building the image
 docker run -p 8080:8080 my-spring-boot-app
